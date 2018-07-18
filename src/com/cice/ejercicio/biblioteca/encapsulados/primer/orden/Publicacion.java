@@ -1,11 +1,11 @@
-package com.cice.ejercicio.biblioteca.encapsulados;
+package com.cice.ejercicio.biblioteca.encapsulados.primer.orden;
 
-public class Recurso {
+public class Publicacion extends Recurso{
 
     private String nombre;
     private String fechaPublicacion;
 
-    public Recurso(String nombre, String fechaPublicacion) {
+    public Publicacion(String nombre, String fechaPublicacion) {
         this.nombre = nombre;
         this.fechaPublicacion = fechaPublicacion;
     }

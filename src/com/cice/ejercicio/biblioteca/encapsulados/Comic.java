@@ -1,6 +1,8 @@
 package com.cice.ejercicio.biblioteca.encapsulados;
 
-public class Comic extends Recurso {
+import com.cice.ejercicio.biblioteca.encapsulados.primer.orden.Publicacion;
+
+public class Comic extends Publicacion {
 
     private long numero;
     private String coleccion;
